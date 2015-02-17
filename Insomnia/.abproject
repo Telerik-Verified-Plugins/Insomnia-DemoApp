@@ -22,7 +22,6 @@
   "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
   "FrameworkVersion": "3.5.0",
   "CorePlugins": [
-    "nl.x-services.plugins.insomnia",
     "org.apache.cordova.console",
     "org.apache.cordova.device",
     "org.apache.cordova.device-orientation",
