@@ -20,15 +20,16 @@
   "WP8PublisherID": "{71be8d10-5444-4377-bb37-ad19ee56fbaa}",
   "WP8ProductID": "{d6a6f71c-dd09-4335-bf0b-d104c7081d0c}",
   "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
-  "FrameworkVersion": "3.7.0",
+  "FrameworkVersion": "4.0.0",
   "CorePlugins": [
-    "org.apache.cordova.console",
-    "org.apache.cordova.device",
-    "org.apache.cordova.device-orientation",
-    "org.apache.cordova.dialogs",
-    "org.apache.cordova.splashscreen",
-    "org.apache.cordova.statusbar",
-    "org.apache.cordova.vibration"
+    "cordova-plugin-console",
+    "cordova-plugin-crosswalk-webview@1.2.0",
+    "cordova-plugin-device",
+    "cordova-plugin-device-orientation",
+    "cordova-plugin-dialogs",
+    "cordova-plugin-splashscreen",
+    "cordova-plugin-statusbar",
+    "cordova-plugin-vibration"
   ],
   "AndroidPermissions": [
     "android.permission.VIBRATE",
@@ -38,7 +39,7 @@
     "Portrait",
     "Landscape"
   ],
-  "AndroidHardwareAcceleration": "false",
+  "AndroidHardwareAcceleration": "true",
   "iOSStatusBarStyle": "Default",
   "WP8SupportedResolutions": [
     "ID_RESOLUTION_WVGA",
@@ -46,5 +47,7 @@
     "ID_RESOLUTION_HD720P"
   ],
   "Framework": "Cordova",
-  "CordovaPluginVariables": {}
+  "CordovaPluginVariables": {},
+  "WP8WindowsPublisherName": "CN=Telerik",
+  "WP8PackageIdentityName": "1234Telerik.com.telerik.plugindemo.insomnia"
 }
